@@ -96,6 +96,6 @@ TidySet <- TidySet[order(TidySet$subjectId, TidySet$activityId), ]
 
 # E.2 Writing second tidy data set in txt file
 
-write.table(TidySet, "2ndTidySet.txt", row.name=FALSE)
+write.table(TidySet, "TidySet.txt", row.name=FALSE)
 
 
